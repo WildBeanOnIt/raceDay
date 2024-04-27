@@ -6,7 +6,7 @@ let runnerAge = 18;     //*Runner Age
 
 //?Create a control flow statement that checks whether the runner is an adult AND registered early.
 if (runnerAge >= 18 && hasRunnerRegEarly){
-    raceNumber = 1000
+    raceNumber += 1000
 }
 
 //?This statement will check age and registration time to determine race time.

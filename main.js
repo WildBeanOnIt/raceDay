@@ -10,10 +10,13 @@ if (runnerAge >= 18 && hasRunnerRegEarly){
 }
 
 //?This statement will check age and registration time to determine race time.
+    //*Early reg.
 if (runnerAge >= 18 && hasRunnerRegEarly) {
     console.log(`Your race will start at 9:30AM. Your RACE NUMBER is ${raceNumber}`);
+    //*Late reg.
 } else if (runnerAge >= 18 && hasRunnerRegEarly != true){
     console.log(`Late adults run at 11:00AM. Your RACE NUMBER is ${raceNumber}`);
+    //*Under the age of 18.
 } else {
     console.log(`Youth registrants run at 12:30PM`)
 }
